@@ -63,3 +63,9 @@ export const state_management_zustand = [
   {name: '04_state_management_zustand.jsx', path: 'state_management_zustand/04_state_management_zustand.jsx'},
   {name: '05_state_management_zustand.jsx', path: 'state_management_zustand/05_state_management_zustand.jsx'},
 ]
+
+export const data_fetching = [
+  {name: '01_fetch_api.jsx', path: 'data_fetching/01_fetch_api.jsx'},
+  {name: '02_axios.jsx', path: 'data_fetching/02_axios.jsx'},
+  {name: '03_react_query.jsx', path: 'data_fetching/03_react_query.jsx'},
+]
