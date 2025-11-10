@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+/* Project defaults (use Tailwind utilities via @apply where helpful) */
+body {
+	@apply bg-gray-50 text-gray-800;
+	font-family: system-ui, sans-serif;
+	padding: 20px;
+}
+
+.card {
+	@apply border border-gray-200 p-4 rounded-lg bg-white;
+	margin: 8px 0;
+}
