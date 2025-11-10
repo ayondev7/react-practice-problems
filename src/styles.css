@@ -1,13 +1,19 @@
 @import "tailwindcss";
 
-/* Project defaults (use Tailwind utilities via @apply where helpful) */
+/* Project defaults */
 body {
-	@apply bg-gray-50 text-gray-800;
+	background-color: black;
 	font-family: system-ui, sans-serif;
 	padding: 20px;
+	color: #ff0080; /* Neon pink */
+	text-shadow: 0 0 5px #ff0080, 0 0 10px #ff0080, 0 0 15px #ff0080;
 }
 
 .card {
-	@apply border border-gray-200 p-4 rounded-lg bg-white;
+	padding: 1rem;
+	border-radius: 0.5rem;
+	background-color: black;
 	margin: 8px 0;
+	border: 1px solid #8000ff; /* Neon purple border */
+	box-shadow: 0 0 5px #8000ff, 0 0 10px #8000ff, 0 0 15px #8000ff;
 }
